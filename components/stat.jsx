@@ -23,7 +23,7 @@ function Stat() {
               <div className='grid place-items-center'>
                 <CountUp end={inView ? 24 : 0} duration={5} className='text-white text-3xl' />
                 <h1 className='font-mono text-white'>MESES</h1>
-                <h1 className="text-white text-center font-light">Tempo médio para conclusão de um processo de divórcio</h1>
+                <h1 className="text-white text-center font-light">Tempo médio para conclusão de um processo de divórcio na justiça comum</h1>
               </div>
 
               <div className='grid place-items-center my-10'>
@@ -32,6 +32,7 @@ function Stat() {
               </div>
             </div>
             <div className='grid place-items-center my-10'>
+              <h1 className="text-white text-center font-light">Evite conflitos</h1>
               <button className="btn btn-outline" onClick={handleContactButtonClick}>ENTRE EM CONTATO</button>
             </div>
           </motion.div>
